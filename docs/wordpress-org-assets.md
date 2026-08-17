@@ -1,7 +1,11 @@
 # WordPress.org listing assets
 
-Published to SVN's `assets/` directory by the deploy workflow, not shipped
-inside the plugin. Names are fixed by the plugin directory:
+They live in `.wordpress-org/`, which the deploy workflow syncs wholesale into
+SVN's `assets/` directory. Only artwork belongs there: anything else in that
+folder is published to a world-readable URL, which is why this note sits here
+instead. Nothing in it ships inside the plugin.
+
+Names are fixed by the plugin directory:
 
 | File | Size | What it is |
 | --- | --- | --- |
